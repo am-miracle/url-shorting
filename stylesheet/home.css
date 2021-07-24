@@ -25,6 +25,11 @@ body {
   color: var(--VeryDarkBlue);
 }
 
+.dark-theme{
+  background: #111;
+  color: #fff;
+}
+
 body,
 * {
   transition: 0.3s;

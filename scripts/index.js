@@ -141,6 +141,23 @@ function toggle() {
         //setTimeout(function(){ alertBox.style.display = "none"; }, 600);
       };
   }
+
+
+  let moon = document.getElementById("moon");
+  moon.onclick = ()=> {
+    document.body.classList.toggle("dark-theme");
+  }
+
+  let sun = document.getElementById("sun");
+  sun.onclick = ()=> {
+    document.getElementById("bg").classList.toggle("dark-theme");
+  }
   
+
+    // document.main.classList.toggle("dark-theme");
+  //   if(document.body.classList.contains("dark-theme")){
+  //     moon.src = "fas fa-moon";
+  // }
+
   
   
